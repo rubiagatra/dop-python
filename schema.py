@@ -29,20 +29,3 @@ search_schema = {
         },
     }
 };
-
-
-response_schema = {
-    "type": "object",
-    "required": ["first_name", "last_name"],
-    "properties": {
-        "first_name": {
-            "type": "string",
-            "maxLength": 100
-        },
-        "last_name": {
-            "type": "string",
-            "maxLength": 100
-        }
-    }
-};
-
